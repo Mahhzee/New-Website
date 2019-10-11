@@ -1,0 +1,247 @@
+/* No CSS *//*# sourceMappingURL=styles.css.map */
+
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.abtme {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.abtme h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 80px;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+
+
+.abtme p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    position: relative; 
+    margin-top: 6em;
+    padding-bottom: 1em;
+    padding-left: 85px;
+    padding-right: 85px;
+    color: #43464b;
+}
+
+.logo {
+    position: relative;
+    top: 90px;
+    padding-left: 100px;
+}
+
+.nav {
+    position: relative;
+    bottom: 2em;
+    padding-left: 13em;
+    
+}
+
+
+.fa-dribbble-square:hover {
+    color:#ea4c89;
+}
+
+.fa-dribbble-square {
+    transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+   color: black;
+}
+
+.fa-github-square {
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    color: black;
+}
+
+.fa-github-square:hover {
+    color: #211F1F;
+}
+
+.fa-behance-square {
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    color: black;
+}
+
+.fa-eye {
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    color: black;
+}
+
+.fa-eye:hover {
+    color: #e15b19;
+}
+
+.fa-code {
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    color: black;
+}
+
+.fa-html5{
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    color: #F16529;
+}
+
+.fa-html5:hover{
+    color: black;
+}
+
+.fa-css3-alt{
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    color: #264de4;
+}
+
+.fa-css3-alt:hover{
+    color: black;
+}
+
+.fa-code:hover {
+    color: #6419e1;
+}
+
+.fa-behance-square:hover {
+    color: #053eff;
+}
+
+.fa-file{
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    color: black;
+}
+
+.fa-file:hover {
+    color: #43464b;
+}
+
+
+.nav a {
+    font-size: 25px;
+}
+
+.prj {
+    padding-left: 25%;
+    padding-top: 3em;
+    padding-bottom: 20px;
+  
+}
+
+.prj-view {
+   text-align: right;
+   position: relative;
+   padding-right: 30%;
+   bottom: 25px;
+   font-size: 20px;
+}
+
+
+.prj h1 {
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 0.3em;
+    font-weight: 400;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+.prj h1:hover {
+   color: #707070;
+}
+
+.prj-info {
+    font-size: 27px;
+}
+
+
+.prj-pic{
+    transition: 1s ease;
+}
+
+.prj-pic:hover{
+    -webkit-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);  
+    transition: 1s ease;
+}
+
+
+.txt{
+    margin-top: 10px;
+    margin-right: 29%;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.prj img{
+    padding-top: 10px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For iPhone Useage*/
+
+@media only screen and (max-width: 600px) {
+
+    .body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+
+    .logo img {
+    margin-left: 3.3em;
+    }
+
+    .nav {
+        margin-left: 3.3em;   
+    }
+
+    .prj-title {
+        font-size: 10px;
+    }
+}
